@@ -19,8 +19,8 @@
                         spaceBetween: 50,
                      },
                      '350': {
-                        slidesPerView:2,
-                        spaceBetween:10,
+                        slidesPerView: 2,
+                        spaceBetween: 10,
                      },
                      '460': {
                         slidesPerView: 2.5,
@@ -43,57 +43,25 @@
                         spaceBetween: 25,
                      },
 
-                  } " :modules=" [ Autoplay, Navigation ] " :navigation="true" :autoplay=" {
+                  } " :modules=" [ Autoplay, Navigation ] " :navigation=" true " :autoplay=" {
    delay: 2000,
    disableOnInteraction: false,
 } " class="mySwiper" :grab-cursor=" true ">
                   <swiper-slide>
-                     <img src="/alfalaboratories.-1024x1024@2x.png" alt="">
+                     <img src="/src/assets/243533304_129503936096812_1607233722212819204_n@2x.png"
+                        alt="">
                   </swiper-slide>
-                  <swiper-slide>
-                     <img src="/243533304_129503936096812_1607233722212819204_n@2x.png" alt="">
-                  </swiper-slide>
-                  <swiper-slide>
-                     <img src="/NoPath - Copy (3)@2x.png" alt="">
-                  </swiper-slide>
-                  <swiper-slide>
-                     <img src="/NoPath - Copy (2)@2x.png" alt="">
-                  </swiper-slide>
-                  <swiper-slide>
-                     <img src="/alfalaboratories.-1024x1024@2x.png" alt="">
-                  </swiper-slide>
-                  <swiper-slide>
-                     <img src="/243533304_129503936096812_1607233722212819204_n@2x.png" alt="">
-                  </swiper-slide>
-                  <swiper-slide>
-                     <img src="/NoPath - Copy (2)@2x.png" alt="">
-                  </swiper-slide>
-                  <swiper-slide>
-                     <img src="/alfalaboratories.-1024x1024@2x.png" alt="">
-                  </swiper-slide>
-                  <swiper-slide>
-                     <img src="/alfalaboratories.-1024x1024@2x.png" alt="">
-                  </swiper-slide>
-                  <swiper-slide>
-                     <img src="/243533304_129503936096812_1607233722212819204_n@2x.png" alt="">
-                  </swiper-slide>
-                  <swiper-slide>
-                     <img src="/NoPath - Copy (3)@2x.png" alt="">
-                  </swiper-slide>
-                  <swiper-slide>
-                     <img src="/NoPath - Copy (2)@2x.png" alt="">
-                  </swiper-slide>
+
                   <swiper-slide>
                      <img
                         src="https://fastly.picsum.photos/id/357/1500/1500.jpg?hmac=ZioDW5L15DvON8KY0S9IJNZcAb9tz9YzEz3B6yZ-GIc"
                         alt="">
                   </swiper-slide>
                   <swiper-slide>
-                     <img src="/243533304_129503936096812_1607233722212819204_n@2x.png" alt="">
+                     <img src="/src/assets/243533304_129503936096812_1607233722212819204_n@2x.png"
+                        alt="">
                   </swiper-slide>
-                  <swiper-slide>
-                     <img src="/NoPath - Copy (2)@2x.png" alt="">
-                  </swiper-slide>
+
 
                </Swiper>
                <!-- <div class=" p-2 rounded-xl bg-[#ACCCFC]   font-arabic">

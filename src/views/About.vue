@@ -48,7 +48,7 @@
                </p>
             </div>
             <div class=" md:order-first">
-               <img width="171" src="Group 47562@2x.png" alt="">
+               <img width="171" src='../assets/logo.png' alt="">
             </div>
          </div>
       </section>

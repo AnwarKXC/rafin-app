@@ -3,7 +3,7 @@
       class="container md:h-[106px] py-2 flex justify-between  md:gap-8 items-center text-lg  uppercase  ">
       <div class=" flex gap-10 justify-center items-center">
          <a class="md:order-first" href="/"><img
-               class="max-w-[75px] object-cover rounded-md aspect-square" src="/Group 47550.svg"
+               class="max-w-[75px] object-cover rounded-md aspect-square" src="../assets/group47550.svg"
                alt=""></a>
          <nav class="hidden md:inline-flex font-medium">
             <ul class=" flex gap-6 xl:gap-[36px]">
@@ -40,8 +40,8 @@
 
          </BaseModal>
          <div class="md:hidden cursor-pointer " @click=" toggleModal ">
-            <img v-if=" lang === 'EN' " width="36" src="/left-alignment.svg" alt="">
-            <img v-if=" lang === 'AR' " width="36" src="/Untitled.svg" alt="">
+            <img v-if=" lang === 'EN' " width="36" src="/src/assets/left-alignment.svg" alt="">
+            <img v-if=" lang === 'AR' " width="36" src="/src/assets/Untitled.svg" alt="">
          </div>
 
       </div>

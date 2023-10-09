@@ -3,7 +3,7 @@
       <section
          class="container  flex gap-4 flex-col md:flex-row justify-center items-center font-arabic ">
          <div class=" relative pt-3 ">
-            <img src="/Group 47735@2x.png" alt="">
+            <img src="/src/assets/35.png" alt="">
          </div>
          <div class="text-xl text-right  max-w-[538px] md:order-first   ">
             <h1 class="title">{{ $t( "حمل تطبيق ريفاين و واطمن علي صحتك في أي وقت" ) }}</h1>
@@ -14,8 +14,8 @@
                تقييماتهم وجودة الخدمة التي يقدمونها. كما تتيح للعملاء مقارنة الأسعار
             </div>
             <div class="flex gap-[27px] mt-[27px] justify-center">
-               <a href=""><img src="/NoPath@2x.png" alt=""></a>
-               <a href=""><img src="/NoPath - Copy@2x.png" alt=""></a>
+               <a href=""><img src="/src/assets/copy.png" alt=""></a>
+               <a href=""><img src="/src/assets/copy1.png" alt=""></a>
             </div>
          </div>
       </section>

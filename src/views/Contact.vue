@@ -4,27 +4,27 @@
       <div class=" text-center  font-arabic  text-[20px] leading-[35px] ">
          <h1 class="title">{{ $t( "كن علي تواصل معنا" ) }}</h1>
          <div class="max-w-[744px] flex justify-center items-center text-start flex-col">
-            <div class="flex flex-col items-center"><img class="contact" src="/Group 47722@2x.png"
+            <div class="flex flex-col items-center"><img class="contact" src="../assets/22.png"
                   alt="">
                <h2 class="title">{{ $t( 'سعداء بزيارتك' ) }}</h2>
                <p class="form-text">{{ $t( 'السادس من أكتوبر - محافظة الجيزة' ) }}</p>
             </div>
-            <div class="flex flex-col items-center"><img class="contact" src="/Group 47723@2x.png"
+            <div class="flex flex-col items-center"><img class="contact" src="../assets/23.png"
                   alt="">
                <h2 class="title">{{ $t( "إتصل بنا" ) }}</h2>
                <p class="form-text">01234564648 - 01214546535</p>
             </div>
-            <div class="flex flex-col items-center"><img class="contact" src="/Group 47724@2x.png"
+            <div class="flex flex-col items-center"><img class="contact" src="../assets/24.png"
                   alt="">
                <h2 class="title">{{ $t( 'سعداء بزيارتك' ) }}</h2>
                <p class="form-text">Info@refin.com</p>
             </div>
-            <div class="hidden  flex-col absolute bottom-4 ">
-               <img width="105" src="/Group 39294@2x.png" alt="">
-               <div class=" w-[105] flex justify-center"><img width="28" src="/Group 39295@2x.png"
-                     alt="">
+               <div class="hidden  flex-col absolute bottom-4 ">
+                  <img width="105" src="../assets/message.png" alt="">
+                  <div class=" w-[105] flex justify-center"><img width="28" src="../assets/up.png"
+                        alt="">
+                  </div>
                </div>
-            </div>
          </div>
 
       </div>

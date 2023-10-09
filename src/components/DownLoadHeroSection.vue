@@ -10,8 +10,8 @@
          تقييماتهم وجودة الخدمة التي يقدمونها. كما تتيح للعملاء مقارنة الأسعار
       </div>
       <div class="flex gap-[27px] mt-[27px] justify-center">
-         <a href=""><img src="/NoPath@2x.png" alt=""></a>
-         <a href=""><img src="/NoPath - Copy@2x.png" alt=""></a>
+         <a href=""><img src="/src/assets/copy.png" alt=""></a>
+         <a href=""><img src="/src/assets/copy1.png" alt=""></a>
       </div>
    </div>
 </template>

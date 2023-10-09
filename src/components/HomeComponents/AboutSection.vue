@@ -13,7 +13,7 @@
                </button>
          </div>
          <div class=" max-w-[170px]">
-            <img  src="Group 47562@2x.png" alt="">
+            <img  src="/src/assets/logo.png" alt="">
          </div>
       </div>
    </section>

@@ -36,25 +36,25 @@
 
             <swiper-slide>
                <div class="text-20px">
-                  <div class="serv"><img src="/Group 41435@2x.png" alt=""></div>
+                  <div class="serv"><img src="/src/assets/35.png" alt=""></div>
                   <p>{{ $t( 'معمل تحاليل' ) }}</p>
                </div>
             </swiper-slide>
             <swiper-slide>
                <div>
-                  <div class="serv"><img src="/Group 41318@2x.png" alt=""></div>
+                  <div class="serv"><img src="/src/assets/18.png" alt=""></div>
                   <p>{{ $t( "معمل أشعة" ) }}</p>
                </div>
             </swiper-slide>
             <swiper-slide>
                <div>
-                  <div class="serv"><img src="/Group 41448@2x.png" alt=""></div>
+                  <div class="serv"><img src="/src/assets/48.png" alt=""></div>
                   <p>{{ $t( 'مستشفي' ) }}</p>
                </div>
             </swiper-slide>
             <swiper-slide>
                <div>
-                  <div class="serv"><img src="/Group 41477@2x.png" alt=""></div>
+                  <div class="serv"><img src="/src/assets/77.png" alt=""></div>
                   <p>{{ $t( 'عيادة' ) }}</p>
                </div>
             </swiper-slide>

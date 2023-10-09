@@ -1,8 +1,8 @@
 <template>
    <section class=" relative md:-mt-5  ">
        <div class="z-10 fixed hidden md:flex flex-col  bottom-16  ">
-               <a href="#form"><img width="105" src="/Group 39294@2x.png" alt=""></a>
-               <div @click=" scrollToTop "  class=" cursor-pointer  w-[105] flex justify-center"><img width="28" src="/Group 39295@2x.png" alt="">
+               <a href="#form"><img width="105" src="../../assets/message.png" alt=""></a>
+               <div @click=" scrollToTop "  class=" cursor-pointer  w-[105] flex justify-center"><img width="28" src="../../assets/up.png" alt="">
                </div>
             </div>
       <swiper class="mySwiper" :slides-per-view=" 1 " :space-between=" 50 " :loop=" true "

@@ -12,11 +12,11 @@
                   from-black to-[#00000000] w-full">
                      <span  v-if=" webShareSupported " @click=" sharePage " class=" text-white cursor-pointer hover:text-prim">{{ $t( 'شارك' ) }}</span>
                      <div class="flex gap-1">
-                        <a href=""><img @click=" shareOnFacebook "  width="24" src="/faceimg.svg" alt=""></a>
-                        <a href=""><img @click=" shareOnInstagram"  width="24" src="/instaimg.svg" alt=""></a>
-                        <a href=""><img @click=" shareOnWhatsApp" width="24" src="/whatsimg.svg" alt=""></a>
-                        <a href=""><img @click=" shareOnTwitter "  width="24" src="/twitterimg.svg" alt=""></a>
-                        <a href=""><img @click=" shareOnLinkedIn "  width="24" src="/linkdimg.svg" alt=""></a>
+                        <a href=""><img @click=" shareOnFacebook "  width="24" src="/src/assets/faceimg.svg" alt=""></a>
+                        <a href=""><img @click=" shareOnInstagram"  width="24" src="/src/assets/instaimg.svg" alt=""></a>
+                        <a href=""><img @click=" shareOnWhatsApp" width="24" src="/src/assets/whatsimg.svg" alt=""></a>
+                        <a href=""><img @click=" shareOnTwitter "  width="24" src="/src/assets/twitterimg.svg" alt=""></a>
+                        <a href=""><img @click=" shareOnLinkedIn "  width="24" src="/src/assets/linkdimg.svg" alt=""></a>
                      </div>
                   </div>
                </div>

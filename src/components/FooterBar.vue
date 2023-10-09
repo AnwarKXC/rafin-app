@@ -3,7 +3,7 @@
       <div class=" flex flex-col lg:flex-row md:justify-between  justify-center items-center gap-4 border-t opacity-80 pt-[33px] ">
          <div>
                      <a class="md:order-first" href="/"><img
-                  class="max-w-[75px] object-cover rounded-md aspect-square" src="/Group 47550.svg"
+                  class="max-w-[75px] object-cover rounded-md aspect-square" src="/src/assets/group47550.svg"
                   alt=""></a>
          </div>
 
@@ -27,13 +27,13 @@
             <div class="flex justify-center items-center gap-2">
                <!-- <a href="https://www.instagram.com/" ><img width="16" src="/instagram.png" alt=""></a> -->
                <!-- <a href="https://twitter.com/"><img width="16" src="/twitter.png" alt=""></a> -->
-               <a target=”_blank” href="https://www.facebook.com/refinecare"><img width="16" src="/facebook-app-symbol.png" alt=""></a>
-                        <a href="https://www.youtube.com/@refinecare"><img width="16" target='_blank' src="/youtube.png" alt=""></a>
+               <a target=”_blank” href="https://www.facebook.com/refinecare"><img width="16" src="/src/assets/facebook-app-symbol.png" alt=""></a>
+                        <a href="https://www.youtube.com/@refinecare"><img width="16" target='_blank' src="/src/assets/youtube.png" alt=""></a>
                <!-- <a href="https://www.telegram.com/"><img width="16" src="/telegram.png" alt=""></a> -->
                <!-- <a href="https://www.x.com/"><img width="16" src="/twitter (2).png" alt=""></a> -->
       
          
-               <a href="https://linkedin.com/company/refine-care" target=”_blank”><img width="16" src="/linkedin.png" alt=""></a>
+               <a href="https://linkedin.com/company/refine-care" target=”_blank”><img width="16" src="/src/assets/linkedin.png" alt=""></a>
          
             </div>
          </div>
