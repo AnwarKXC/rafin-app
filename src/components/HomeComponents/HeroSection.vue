@@ -26,6 +26,7 @@
                <div class=" lg:hidden"><down-load-hero-section /></div>
             </div>
          </swiper-slide>
+         
          <swiper-slide>
             <div class="flex flex-col justify-center items-center">
                <div
