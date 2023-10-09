@@ -11,7 +11,7 @@
    <swiper-slide>
                <div class="flex flex-col justify-center items-center">
                   <div
-                     class="w-screen flex relative  rounded-t-[15px] md:flex-row  justify-end items-center font-arabic  text-center md:text-start  lg:bg-[url('/src/assets/Slider.png')] bg-[url('/src/assets/Slider3.png')]  bg-no-repeat aspect-[2/.82] bg-cover ">
+                     class="w-screen flex relative  rounded-t-[15px] md:flex-row  justify-end items-center font-arabic  text-center md:text-start  lg:bg-[url('/src/assets/Slider.png')] bg-[url('/src/assets/slider3.png')]  bg-no-repeat aspect-[2/.82] bg-cover ">
                      <div class="hidden lg:inline-flex"><down-load-hero-section /></div>
                   </div>
                   <div class=" lg:hidden"><down-load-hero-section /></div>
@@ -20,13 +20,13 @@
          <swiper-slide>
             <div class="flex flex-col justify-center items-center">
                <div
-                  class="w-screen flex relative  rounded-t-[15px] md:flex-row  justify-end items-center font-arabic  text-center md:text-start bg-[url('/src/assets/Slider2.png')] bg-contain lg:bg-cover  bg-no-repeat aspect-[2/.82] md:max-h-[560px] ">
+                  class="w-screen flex relative  rounded-t-[15px] md:flex-row  justify-end items-center font-arabic  text-center md:text-start bg-[url('/src/assets/slider2.png')] bg-contain lg:bg-cover  bg-no-repeat aspect-[2/.82] md:max-h-[560px] ">
                   <div class="hidden lg:inline-flex"><down-load-hero-section /></div>
                </div>
                <div class=" lg:hidden"><down-load-hero-section /></div>
             </div>
          </swiper-slide>
-         
+
          <swiper-slide>
             <div class="flex flex-col justify-center items-center">
                <div
