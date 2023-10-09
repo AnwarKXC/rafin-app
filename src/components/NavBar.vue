@@ -1,8 +1,8 @@
 <template>
    <header
       class="container md:h-[106px] py-2 flex  md:justify-between  md:gap-8 items-center text-lg  uppercase  font-arabic">
-      <div class="flex gap-10 md:justify-center  justify-between flex-grow  items-center">
-         <div class="flex justify-end md:justify-start flex-grow  order-last md:order-first">
+      <div class="flex gap-10 md:justify-start  justify-between  flex-grow  items-center">
+         <div class="flex justify-end md:justify-start  order-last md:order-first">
             <a class=" " href="/"><img
                   class="max-w-[75px] object-cover rounded-md aspect-square" src="../assets/group47550.svg"
                   alt=""></a>
@@ -41,7 +41,7 @@
             <button class=" button-sec" v-if=" lang === 'EN' " @click=" Ar ">AR</button>
             <button class=" button-sec " v-if=" lang === 'AR' " @click=" En ">EN</button>
          </div>
-               <ul class=" flex gap-[62px] flex-col">
+               <ul class=" flex gap-[62px] flex-col text-lg">
                   <li>
                      <RouterLink class="flex  items-center  gap-3" to="/"> <img src="/src/assets/home.png" alt="">{{ $t( 'الرئيسية' ) }}</RouterLink>
                   </li>
