@@ -1,6 +1,6 @@
 <template>
    <header
-      class="container md:h-[106px] py-2 flex  md:justify-between  md:gap-8 items-center px-4 text-lg  uppercase  font-arabic">
+      class="container md:h-[106px] py-2 flex  md:justify-between  md:gap-8 items-center text-lg  uppercase  font-arabic">
       <div class="flex gap-10 md:justify-center  justify-between flex-grow  items-center">
          <div class="flex justify-end md:justify-start flex-grow  order-last md:order-first">
             <a class=" " href="/"><img
