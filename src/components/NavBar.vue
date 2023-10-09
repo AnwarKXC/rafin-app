@@ -1,10 +1,12 @@
 <template>
    <header
-      class="container md:h-[106px] py-2 flex justify-between  md:gap-8 items-center text-lg  uppercase  ">
-      <div class=" flex gap-10 justify-center items-center">
-         <a class="md:order-first" href="/"><img
-               class="max-w-[75px] object-cover rounded-md aspect-square" src="../assets/group47550.svg"
-               alt=""></a>
+      class="container md:h-[106px] py-2 flex  md:justify-between  md:gap-8 items-center px-4 text-lg  uppercase  font-arabic">
+      <div class="flex gap-10 md:justify-center  justify-between flex-grow  items-center">
+         <div class="flex justify-end md:justify-start flex-grow  order-last md:order-first">
+            <a class=" " href="/"><img
+                  class="max-w-[75px] object-cover rounded-md aspect-square" src="../assets/group47550.svg"
+                  alt=""></a>
+         </div>
          <nav class="hidden md:inline-flex font-medium">
             <ul class=" flex gap-6 xl:gap-[36px]">
                <li>
@@ -21,24 +23,7 @@
                </li>
             </ul>
          </nav>
-         <BaseModal :modalActive=" modalActive " @close-modal=" toggleModal ">
-
-            <ul class=" flex gap-[62px] flex-col">
-               <li>
-                  <RouterLink to="/">{{ $t( 'الرئيسية' ) }}</RouterLink>
-               </li>
-               <li>
-                  <RouterLink to="/about-us">{{ $t( "من نحن" ) }}</RouterLink>
-               </li>
-               <li>
-                  <RouterLink to="/contact-us">{{ $t( "تواصل معنا" ) }}</RouterLink>
-               </li>
-               <li>
-                  <RouterLink to="/blog">{{ $t( "المدونة" ) }}</RouterLink>
-               </li>
-            </ul>
-
-         </BaseModal>
+        
          <div class="md:hidden cursor-pointer " @click=" toggleModal ">
             <img v-if=" lang === 'EN' " width="36" src="/src/assets/left-alignment.svg" alt="">
             <img v-if=" lang === 'AR' " width="36" src="/src/assets/Untitled.svg" alt="">
@@ -46,11 +31,33 @@
 
       </div>
 
-      <div class=" xl:gap-[160px] font-arabic">
+      <div class=" hidden md:inline-flex xl:gap-[160px] font-arabic">
          <button class=" button-sec" v-if=" lang === 'EN' " @click=" Ar ">AR</button>
          <button class=" button-sec " v-if=" lang === 'AR' " @click=" En ">EN</button>
       </div>
-   </header>
+       <BaseModal :modalActive=" modalActive " @close-modal=" toggleModal ">
+
+         <div class="pb-[64px] xl:gap-[160px] font-arabic">
+            <button class=" button-sec" v-if=" lang === 'EN' " @click=" Ar ">AR</button>
+            <button class=" button-sec " v-if=" lang === 'AR' " @click=" En ">EN</button>
+         </div>
+               <ul class=" flex gap-[62px] flex-col">
+                  <li>
+                     <RouterLink class="flex  items-center  gap-3" to="/"> <img src="/src/assets/home.png" alt="">{{ $t( 'الرئيسية' ) }}</RouterLink>
+                  </li>
+                  <li>
+                     <RouterLink class="flex  items-center  gap-3" to="/about-us"> <img src="/src/assets/information-button.png" alt="">{{ $t( "من نحن" ) }}</RouterLink>
+                  </li>
+                  <li>
+                     <RouterLink class="flex  items-center  gap-3 " to="/contact-us"> <img src="/src/assets/contact-us.png" alt="">{{ $t( "تواصل معنا" ) }}</RouterLink>
+                  </li>
+                  <li>
+                     <RouterLink class="flex  items-center  gap-3" to="/blog"> <img src="/src/assets/web-page.png" alt="">{{ $t( "المدونة" ) }}</RouterLink>
+                  </li>
+               </ul>
+
+            </BaseModal>
+            </header>
 </template>
 
 <script setup>
@@ -75,4 +82,6 @@ const toggleModal = () => {
 }
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+
+</style>

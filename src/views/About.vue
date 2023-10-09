@@ -3,7 +3,7 @@
       <div class=" md:-mt-4">
          <div class="flex flex-col justify-center items-center overflow-hidden">
                   <div
-                     class="w-screen flex relative  rounded-t-[15px] md:flex-row  justify-end items-center font-arabic  text-center md:text-start md:hero hero-mob bg-no-repeat aspect-[2/1] bg-cover  ">
+                     class="w-screen flex relative  rounded-t-[15px] md:flex-row  justify-end items-center font-arabic  text-center md:text-start  hero-mob bg-no-repeat aspect-[2/.82] bg-cover  ">
              
                   </div>
       
@@ -77,10 +77,7 @@ import PartnersSection from '../components/HomeComponents/PartnersSection.vue'
 
 <style  scoped>
 
-.hero{
-    background-image: url('/585 Project (1).jpg');
-}
 .hero-mob{
-       background-image: url('https://www.curtin.edu.au/healthandsafety/wp-content/uploads/2022/08/laboratory_microscope-scaled-aspect-ratio-2-1-1-480x240.jpg');
+       background-image: url('/src/assets/slider5.png');
 }
 </style>

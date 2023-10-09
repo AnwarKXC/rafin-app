@@ -7,7 +7,7 @@
         <Transition name="modal-inner">
           <div v-if=" modalActive " class="p-3 z-50  bg-white  h-full w-3/4   ">
 
-            <div class="pt-24 ">
+            <div class="pt-6 px-2 ">
               <slot />
             </div>
           </div>

@@ -3,9 +3,11 @@
       class="container text-center font-arabic  text-[20px] leading-[35px]  flex justify-center items-center py-5 overflow-hidden" >
       <div class="max-w-[938px]">
          <h1 class="title">{{ $t( "أشهر خدماتنا" ) }}</h1>
-         <p>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص
-            العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد
-            الحروف</p>
+         <p>
+
+      توفر منصة ريفاين خدمات شاملة في مجال الرعاية الصحية وبرامج التأمين الطبي المتنوعة، لتمكن عملائها من هذه الخدمات وحجزها إلكترونياً بسهولة مع العديد من الميزات والخدمات، مثل تحديد وطريقة تقديم الخدمة الطبية حسب المنطقة والمحافظة، وذلك بفضل تقييمات الخدمة التي تقدمها. كما ساهم في مقارنة الأسعار
+
+         </p>
 
          <Swiper :class=" Swiper " :slides-per-view=" 6.25 " :space-between=" 25 " :loop=" true "
             :breakpoints=" {
@@ -85,7 +87,6 @@
 
 <script setup>
 import { Swiper, SwiperSlide } from 'swiper/vue'
-import { useSwiper } from 'swiper/vue'
 
 import { Autoplay } from 'swiper/modules'
 </script>

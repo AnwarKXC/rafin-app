@@ -3,7 +3,7 @@
       <div class=" flex flex-col overflow-hidden max-w-[350px] tracking-wide ">
          <div class="border border-[#BFBFBF] rounded-t-[15px] overflow-hidden ">
             <img class=" aspect-[2/1] w-full  "
-               src="https://fastly.picsum.photos/id/211/2000/1000.jpg?hmac=ae6zd90cMuJDz9iU-guoeyC843KgrwubpUgdu1RWXYI"
+               src="https://www.top10arabi.com/wp-content/uploads/2021/06/%D8%A7%D9%81%D8%B6%D9%84-%D9%85%D8%B2%D9%8A%D9%84-%D8%B9%D8%B1%D9%82.jpg"
                alt="">
          </div>
          <div class="h-[150px] text-start p-2  border border-[#BFBFBF] border-t-0 rounded-b-[15px] ">

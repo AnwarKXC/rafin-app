@@ -28,7 +28,7 @@
          </div>
 
       </div>
-      <div class=" container text-center  font-arabic  text-[20px] leading-[35px] mt-20">
+      <div class=" container text-center  font-arabic  text-[20px] leading-[35px] mt-20 md:-mt-4 xl:max-w-[70%] ">
          <FormSection />
       </div>
    </main>
