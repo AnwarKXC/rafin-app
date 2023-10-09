@@ -61,6 +61,34 @@
                      <img src="/src/assets/243533304_129503936096812_1607233722212819204_n@2x.png"
                         alt="">
                   </swiper-slide>
+                  <swiper-slide>
+                     <img src="/src/assets/243533304_129503936096812_1607233722212819204_n@2x.png"
+                        alt="">
+                  </swiper-slide>
+
+                  <swiper-slide>
+                     <img
+                        src="https://fastly.picsum.photos/id/357/1500/1500.jpg?hmac=ZioDW5L15DvON8KY0S9IJNZcAb9tz9YzEz3B6yZ-GIc"
+                        alt="">
+                  </swiper-slide>
+                  <swiper-slide>
+                     <img src="/src/assets/243533304_129503936096812_1607233722212819204_n@2x.png"
+                        alt="">
+                  </swiper-slide>
+                  <swiper-slide>
+                     <img src="/src/assets/243533304_129503936096812_1607233722212819204_n@2x.png"
+                        alt="">
+                  </swiper-slide>
+
+                  <swiper-slide>
+                     <img
+                        src="https://fastly.picsum.photos/id/357/1500/1500.jpg?hmac=ZioDW5L15DvON8KY0S9IJNZcAb9tz9YzEz3B6yZ-GIc"
+                        alt="">
+                  </swiper-slide>
+                  <swiper-slide>
+                     <img src="/src/assets/243533304_129503936096812_1607233722212819204_n@2x.png"
+                        alt="">
+                  </swiper-slide>
 
 
                </Swiper>
