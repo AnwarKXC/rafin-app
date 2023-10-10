@@ -1,6 +1,6 @@
 <template>
    <section class=" container py-[50px]  text-[#191933] font-arabic text-[20px] h-[176px]">
-      <div class=" flex flex-col lg:flex-row md:justify-between  justify-center items-center gap-4 border-t opacity-80 pt-[33px] ">
+      <div class=" flex flex-col lg:flex-row lg:justify-between  justify-center items-center gap-4 border-t opacity-80 pt-[33px] ">
          <div>
                      <a class="md:order-first" href="/"><img
                   class="max-w-[75px] object-cover rounded-md aspect-square" src="/src/assets/group47550.svg"
@@ -38,7 +38,12 @@
             </div>
          </div>
       </div>
-      <h6 class="text-center md:text-end text-[15px] opacity-30 py-[10px]">{{ $t('جميع الحقوق محفوظة لشركة © 2023 Paymac') }}</h6>
+      <div class="flex flex-col lg:flex-row lg:justify-between justify-center items-cente text-center lg:text-end text-[15px]  py-[10px] items-center">
+         <h6 class="flex justify-center opacity-60">{{ $t("جميع الحقوق محفوظة © 2023 Refine") }} </h6>
+             <h6 class=" text-center "><span class="opacity-60 ">Powerd by</span> <a class=" opacity-90 font-semibold text-prim" href="https://paymac.net">Paymac</a></h6>
+      </div>
+      <h6 class=" flex justify-center items-center text-xs lg:-mt-6"><span class=" text-center opacity-60">{{ $t('يتبع هذا الموقع شركة PAYMAC للحلول الرقمية الكاملة') }}</span><span class=" opacity-90 aspect-[2/1] max-w-[150px]"><a href="https://paymac.net"><img src="/src/assets/paylogo.png" alt="  paymac logo"></a></span></h6>
+  
    </section>
 </template>
 

@@ -117,7 +117,7 @@
 <script setup>
 import { Swiper, SwiperSlide } from 'swiper/vue'
 import { Autoplay, Navigation } from 'swiper/modules'
-
+import { register } from 'swiper/element/bundle';
 import 'swiper/css/pagination'
 import 'swiper/css/navigation';
 
@@ -130,6 +130,10 @@ import 'swiper/css/navigation';
    height: 145px;
 }
 
+.swiper-button-prev::after{
+color: black;
+display: none;
+}
 .swiper-slide {
    /* Center slide text vertically */
    max-width: 175px;

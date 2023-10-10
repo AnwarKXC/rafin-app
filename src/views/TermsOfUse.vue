@@ -1,5 +1,5 @@
 <template>
-<div class="container">
+<div class="container min-h-screen">
    <h1 class="title">{{ $t('شروط الاستخدام') }}</h1>
       <p class=" leading-8">
 

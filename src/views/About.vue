@@ -1,17 +1,11 @@
 <template>
    <main class=" font-arabic ">
-      <div class=" md:-mt-4">
-         <div class="flex flex-col justify-center items-center overflow-hidden">
-                  <div
-                     class="w-screen flex relative  rounded-t-[15px] md:flex-row  justify-end items-center font-arabic  text-center md:text-start  hero-mob bg-no-repeat aspect-[2/.82] bg-cover  ">
-             
-                  </div>
-      
-                  </div>
-         <!-- <HeroSection /> -->
-      </div>
+            <div class="w-screen text-center  aspect-[2/.8]  ">
+               <img src="/src/assets/slider5.png" alt=" laps">
+            </div>
       <section class=" font-arabic flex justify-center  items-center pb-10">
-         <div class="container flex justify-around items-center text-center md:text-start gap-10 flex-col md:flex-row ">
+         <div
+            class="container flex justify-around items-center text-center md:text-start gap-10 flex-col md:flex-row ">
             <div class=" max-w-[690px]">
                <h1 class="title"> {{ $t( " مين ريفاين ؟" ) }}</h1>
                <p class=" text-[18px]">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد
@@ -54,8 +48,10 @@
       </section>
       <div class=" bg-[#ECF5FB]">
          <NumbersSection />
-         <section class="md:h-[314px] py-5 bg-prim text-center flex justify-center flex-col items-center">
-            <h1 class=" text-[48px] text-white">{{ $t( 'هل لديك أي إستفسار يسعدنا تواصلك معنا' ) }}</h1>
+         <section
+            class="md:h-[314px] py-5 bg-prim text-center flex justify-center flex-col items-center">
+            <h1 class=" text-[48px] text-white">{{ $t( 'هل لديك أي إستفسار يسعدنا تواصلك معنا' ) }}
+            </h1>
             <a href="">
                <button
                   class=" text-[23px] text-prim bg-white px-[73px] py-2.5 rounded-[10px] my-[34px]">{{
@@ -76,8 +72,7 @@ import PartnersSection from '../components/HomeComponents/PartnersSection.vue'
 </script>
 
 <style  scoped>
-
-.hero-mob{
-       background-image: url('/src/assets/slider5.png');
+.hero-mob {
+   background-image: url('/');
 }
 </style>

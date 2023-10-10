@@ -1,13 +1,16 @@
 <template>
-<HeroSection/>
-<AboutSection/>
+   <HeroSection />
+   <AboutSection />
 
    <NumbersSection />
 
-<PartnersSection>        <a href="/contact-us"> <button class="button-prim mt-10">{{ $t( 'يسعدنا انضمامك معنا' ) }}</button></a></PartnersSection>
-<PopluarService/>
-<BlogSection/>
-<ContactUs/>
+   <PartnersSection>
+      <a href="/contact-us"> <button class="button-prim mt-10">{{ $t( 'يسعدنا انضمامك معنا' )
+      }}</button></a>
+   </PartnersSection>
+   <PopluarService />
+   <BlogSection />
+   <ContactUs />
 </template>
 
 <script setup>
@@ -20,8 +23,13 @@ import PartnersSection from '../components/HomeComponents/PartnersSection.vue'
 import PopluarService from '../components/HomeComponents/PopluarService.vue'
 
 
+
+
+
+
+
+
+
 </script>
 
-<style lang="scss" scoped>
-
-</style>
+<style lang="scss" scoped></style>

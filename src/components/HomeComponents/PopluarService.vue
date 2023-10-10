@@ -62,25 +62,6 @@
             </swiper-slide>
 
          </Swiper>
-
-         <!-- <div class="flex justify-center md:justify-evenly items-center mt-10 flex-wrap gap-8">
-               <div class="text-20px">
-                  <div class="serv"><img src="/Group 41435@2x.png" alt=""></div>
-                  <p>{{ $t( 'معمل تحاليل' ) }}</p>
-               </div>
-               <div>
-                  <div class="serv"><img src="/Group 41318@2x.png" alt=""></div>
-                  <p>{{ $t( "معمل أشعة" ) }}</p>
-               </div>
-               <div>
-                  <div class="serv"><img src="/Group 41448@2x.png" alt=""></div>
-                  <p>{{ $t( 'مستشفي' ) }}</p>
-               </div>
-               <div>
-                  <div class="serv"><img src="/Group 41477@2x.png" alt=""></div>
-                  <p>{{ $t( 'عيادة' ) }}</p>
-               </div>
-            </div> -->
       </div>
    </section>
 </template>

@@ -9,9 +9,7 @@
             </a>
          </div>
          <div class=" flex justify-center flex-wrap items-center gap-[22px] text-center pt-8 ">
-            <ProductCard />
-            <ProductCard />
-            <ProductCard />
+            <ProductList :number="3"/>
          </div>
       </div>
    </section>
@@ -19,6 +17,7 @@
 
 <script setup>
 import ProductCard from '../ProductCard.vue'
+import ProductList from '../ProductList.vue'
 
 
 </script>

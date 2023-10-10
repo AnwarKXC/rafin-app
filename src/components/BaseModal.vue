@@ -1,14 +1,16 @@
 <template>
-  <Teleport to="body" >
+  <Teleport to="body">
     <Transition name="modal-outer">
-      <div v-show=" modalActive "  :dir=" dir " :class="[dir==='ltr'?'justify-start':'justify-end']"
-        class="absolute w-full bg-black bg-opacity-50 h-screen top-0 left-0 z-20"
-        @click="$emit( 'close-modal' )">
+      <div v-show=" modalActive " :dir=" dir " :class=" [ dir === 'ltr' ? 'justify-start' : 'justify-end' ] "
+        class=" w-full bg-black  bg-opacity-80   fixed inset-0 z-20" @click="$emit( 'close-modal' )">
         <Transition name="modal-inner">
-          <div v-if=" modalActive " class="p-3 z-50  bg-white  h-full w-3/4   ">
-
-            <div class="pt-6 px-2 ">
+          <div v-if=" modalActive " class=" z-50 backdrop-blur p-4">
+            <button  @click="$emit( 'close-modal' )" class=" p-2 px-4 font-bold bg-[#eeeeee17]  flex flex-col justify-center items-center  text-3xl text-white rounded-2xl ">X
+             
+            </button>
+            <div class=" px-5  text-white items-center flex-col flex   h-screen ">
               <slot />
+
             </div>
           </div>
         </Transition>
