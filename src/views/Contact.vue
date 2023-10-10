@@ -1,8 +1,8 @@
-<template>
+<template>s
    <main
       class=" container flex flex-col xl:flex-row justify-center md:gap-16 items-center  font-arabic py-10 md:py-6 ">
       <div class=" text-center  font-arabic  text-[20px] leading-[35px] ">
-         <h1 class="title-contact ">{{ $t( "كن علي تواصل معنا" ) }}</h1>
+         <h1 ref="focus" class="title-contact ">{{ $t( "كن علي تواصل معنا" ) }}</h1>
          <div class="max-w-[744px] flex justify-center items-center text-center flex-col">
             <div class="flex flex-col items-center "><img class="contact" src="../assets/22.png"
                   alt="">
@@ -56,8 +56,19 @@
 
 <script setup>
 import FormSection from '../components/FormSection.vue'
-import PartnersSection from '../components/HomeComponents/PartnersSection.vue'
 
+import { ref, onMounted } from 'vue'
+const scroll = () => {
+   window.scrollTo( 0, 0 )
+}
+// to auto force page to view on top
+const focus = ref( null )
+onMounted( () => {
+   if ( focus.value ) {
+      focus.value.focus()
+   }
+   scroll()
+} )
 
 </script>
 

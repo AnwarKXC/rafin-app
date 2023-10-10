@@ -1,7 +1,8 @@
 <template>
    <div class="gap-[22px] relative flex justify-center flex-wrap items-center">
       <ProductCard :image=" image "
-         v-for="        image         in         imagesArr.slice( 0, number )        " :key=" image.id " />
+         v-for="         image          in          imagesArr.slice( 0, number )         "
+         :key=" image.id " />
    </div>
 </template>
 
