@@ -23,8 +23,8 @@
             
          </div>
       </div>
-      <FormSection/>
-      <div>
+      <div class=" container">
+         <FormSection/>
       </div>
    </section>
 </template>

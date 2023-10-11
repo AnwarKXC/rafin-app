@@ -43,7 +43,7 @@
          </div>
          <BaseModal :modalActive=" modalActive " @close-modal=" toggleModal ">
             <div class=" flex flex-col justify-center">
-               <ul class=" flex gap-5 justify-center  items-start it flex-col text-lg">
+               <ul class=" flex gap-4 justify-center  items-start it flex-col text-lg">
                   <li>
                      <RouterLink class="flex  items-center  gap-3" to="/"> <img class=" invert"
                            src="/src/assets/home.png" alt="">{{ $t( 'الرئيسية' ) }}</RouterLink>
@@ -73,7 +73,7 @@
                <li><a href=""><img src="/src/assets/copy1.png" alt=""></a>
                </li>
             </ul>
-            <div class="flex gap-8 py-8 flex-wrap " >
+            <div class="flex gap-6 py-5 flex-wrap " >
                <a target=”_blank” href="https://www.facebook.com/refinecare"><img width="32" class=" invert"
                      src="/src/assets/facebook-app-symbol.png" alt=""></a>
                <a href="https://www.youtube.com/@refinecare" target=”_blank”><img width="32"  class=" invert"
