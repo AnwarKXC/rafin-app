@@ -1,5 +1,5 @@
 <template>
-   <form  @submit.prevent="submitHandler" class="   text-start md:pt-6  px-5 ">
+   <form  @submit.prevent="submitHandler" class="   text-start md:pt-6  ">
       <div class="   flex flex-col md:flex-row justify-center items-center  lg:gap-10 ">
          <div class="flex flex-col   ">
             <label for="form">{{ $t( 'الإسم' ) }}</label>
@@ -10,7 +10,7 @@
             <input autocomplete="additional-name"  v-model="emailRef" type="email" name="email" id="email" :placeholder=" $t( 'قم بإدخال البريد الالكتروني' ) ">
          </div>
       </div>
-      <div class="flex flex-col  ">
+      <div class="flex flex-col ">
          <label  for="message">{{ $t( 'الرسالة' ) }}</label>
          <textarea v-model=" messageRef " id="message" :placeholder=" $t( '... يسعدنا قراءة رسالتك' ) " rows="4"></textarea>
       </div>
