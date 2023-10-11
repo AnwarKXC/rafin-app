@@ -1,7 +1,7 @@
 <template>
    <section class=" w-screen  bg-[#ECF5FB] flex justify-center items-center font-arabic py-5">
       <div class="container text-center font-arabic  text-[20px] leading-[35px]">
-         <div class="max-w-[938px] mx-auto">
+         <div class="max-w-[938px] mx-auto container">
             <h1 class="title">{{ $t( 'شركاءنا' ) }}</h1>
             <p>
             توفر منصة ريفاين خدمات شاملة في مجال الرعاية الصحية وبرامج التأمين الطبي المتنوعة، لتمكن
@@ -136,9 +136,7 @@ import 'swiper/css/pagination'
 
 <style  scoped>
 .swiper {
-
    width: 100%;
-   height: 145px;
 }
 
 
@@ -147,6 +145,7 @@ import 'swiper/css/pagination'
    max-width: 175px;
    border-radius: 15px;
    aspect-ratio: 1/1;
+
    overflow: hidden;
    background: rgb(255, 255, 255);
    display: flex;

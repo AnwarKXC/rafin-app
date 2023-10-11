@@ -43,7 +43,7 @@
          </div>
          <BaseModal :modalActive=" modalActive " @close-modal=" toggleModal ">
             <div class=" flex flex-col justify-center">
-               <ul class=" flex gap-6 justify-center  items-start it flex-col text-2xl">
+               <ul class=" flex gap-5 justify-center  items-start it flex-col text-2xl">
                   <li>
                      <RouterLink class="flex  items-center  gap-3" to="/"> <img class=" invert"
                            src="/src/assets/home.png" alt="">{{ $t( 'الرئيسية' ) }}</RouterLink>
@@ -73,7 +73,7 @@
                <li><a href=""><img src="/src/assets/copy1.png" alt=""></a>
                </li>
             </ul>
-            <div class="flex gap-12 py-8 " >
+            <div class="flex gap-8 py-8 flex-wrap " >
                <a target=”_blank” href="https://www.facebook.com/refinecare"><img width="32" class=" invert"
                      src="/src/assets/facebook-app-symbol.png" alt=""></a>
                <a href="https://www.youtube.com/@refinecare" target=”_blank”><img width="32"  class=" invert"
@@ -81,7 +81,8 @@
                <a href="https://linkedin.com/company/refine-care" target=”_blank”><img width="32" class=" invert"
                      src="/src/assets/linkedin.png" alt=""></a>
             </div>
-                 <p class="text-2xl"><a href="tel:01070549662">01070549662</a> - <a href="tel:01070549663">01070549663</a></p>
+                 <p class="text-xl"><a href="tel:01070549662">01070549662</a> - <a href="tel:01070549663">01070549663</a>
+               </p>
          </BaseModal>
       </div>
    </header>
