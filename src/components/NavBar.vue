@@ -1,13 +1,13 @@
 <template>
    <header class="fixed w-screen   uppercase  font-arabic z-50 bg-white ">
-      <div class=" container py-4  flex  md:justify-between  md:gap-8 items-center text-lg">
+      <div class=" container py-4  flex  md:justify-between  md:gap-8 items-center text-lg ">
          <div class="flex md:gap-6 md:justify-start  justify-between  flex-grow  items-center">
             <div class="flex justify-end md:justify-start  order-last md:order-first">
                <a class=" " href="/"><img class="max-w-[75px] object-cover rounded-md aspect-square"
                      src="../assets/group47550.svg" alt=""></a>
             </div>
             <nav class="hidden md:inline-flex font-medium">
-               <ul class=" desk flex xl:gap-[30px] md:text-sm ">
+               <ul class=" desk flex xl:gap-[30px] md:text-sm lg:text-lg ">
                   <li :class=" { 'active ': $route.path == '/' } ">
                      <RouterLink to="/">{{ $t( 'الرئيسية' ) }}</RouterLink>
                   </li>

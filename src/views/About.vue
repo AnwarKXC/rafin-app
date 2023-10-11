@@ -49,8 +49,8 @@
       <div class=" bg-[#ECF5FB]">
          <NumbersSection />
          <section
-            class="md:h-[314px] py-5 bg-prim text-center flex justify-center flex-col items-center">
-            <h1 class=" text-[48px] text-white">{{ $t( 'هل لديك أي إستفسار يسعدنا تواصلك معنا' ) }}
+            class=" md:h-[314px] py-5 bg-prim text-center flex justify-center flex-col items-center">
+            <h1 class=" max-w-[960px] leading-[60px] text-2xl md:text-[48px] text-white">{{ $t( 'هل لديك أي إستفسار يسعدنا تواصلك معنا' ) }}
             </h1>
             <a href="">
                <button
