@@ -1,11 +1,13 @@
 <template >
 
     <div :dir="dir">
+      <NavBar />
       <RouterView  v-slot=" { Component } ">
-        <NavBar />
-        <component :is="Component" />
-        <FooterBar />
+        <div class="pt-28">
+          <component :is="Component" />
+        </div>
       </RouterView>
+      <FooterBar />
     </div>
 
 </template>

@@ -1,12 +1,16 @@
 <template>
    <section class=" w-screen  bg-[#ECF5FB] flex justify-center items-center font-arabic py-5">
       <div class="container text-center font-arabic  text-[20px] leading-[35px]">
-         <h1 class="title">{{ $t( 'شركاءنا' ) }}</h1>
-         <p class="max-w-[938px] mx-auto">
+         <div class="max-w-[938px] mx-auto">
+            <h1 class="title">{{ $t( 'شركاءنا' ) }}</h1>
+            <p>
             توفر منصة ريفاين خدمات شاملة في مجال الرعاية الصحية وبرامج التأمين الطبي المتنوعة، لتمكن
             عملائها من هذه الخدمات وحجزها إلكترونياً بسهولة مع العديد من الميزات والخدمات، مثل تحديد
             وطريقة تقديم الخدمة الطبية حسب المنطقة والمحافظة، وذلك بفضل تقييمات الخدمة التي تقدمها. كما
-            ساهم في مقارنة الأسعار</p>
+            ساهم في مقارنة الأسعار
+
+            </p>
+</div>
          <div>
 
             <div class=" flex items-center gap-4 pt-12">

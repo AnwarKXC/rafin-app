@@ -1,6 +1,6 @@
 <template>
    <RouterLink :to="{name:'article', params:{name: ( image.name).split( ' ' ).join('-'),id:image.id}}">
-      <div class="flex flex-col overflow-hidden max-w-[350px] tracking-wide">
+      <div class="flex flex-col overflow-hidden max-w-[340px] tracking-wide">
          <div class="border border-[#BFBFBF] rounded-t-[15px] overflow-hidden">
             <img class="aspect-[2/1] w-full" :src=" image.url " alt="">
          </div>

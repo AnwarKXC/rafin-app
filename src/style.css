@@ -11,7 +11,10 @@ body{
  overflow-x: hidden;
 }
 .button-prim{
-   @apply px-[38px] py-2.5 bg-prim rounded-[10px] text-white
+   @apply px-[38px] py-2.5 bg-prim rounded-[10px] text-white hover:bg-[#021de5]
+}
+.button-prim-nav{
+   @apply px-[38px] py-2.5 rounded-[10px] text-white hover:bg-[#021de5] lg:px-[20px] 
 }
 .button-sec{
    @apply md:px-[15px] px-12 py-2.5 border-2 border-prim rounded-[10px] md:text-prim font-bold hover:bg-blue-100 text-base
@@ -20,7 +23,7 @@ body{
    @apply w-28 aspect-[5/2]  mt-10 mb-4 bg-[#152041fc]  text-2xl  border-2 border-prim  rounded-[15px] hover:bg-[#263c7e]
 }
 .title{
-   @apply text-prim text-[28px]  font-bold py-[20px] capitalize ltr:md:text-start text-center 
+   @apply text-prim text-[28px]  font-bold py-[20px] capitalize md:text-start  text-center 
 }
 .title-contact{
    @apply text-prim text-[28px]  font-bold py-[20px] capitalize  text-center 
@@ -49,6 +52,7 @@ padding: 7px 5px;
 
 }
 label{
+   margin: 0 10px;
 color: #000000;
 opacity: 0.5;
 padding: 15px 0 0;

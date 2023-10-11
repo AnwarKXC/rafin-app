@@ -2,7 +2,7 @@
   <Teleport to="body">
     <Transition name="modal-outer">
       <div v-show=" modalActive " :dir=" dir " :class=" [ dir === 'ltr' ? 'justify-start' : 'justify-end' ] "
-        class=" w-full bg-black  bg-opacity-80   fixed inset-0 z-20" @click="$emit( 'close-modal' )">
+        class=" w-full bg-black  bg-opacity-80  z-50  fixed inset-0 z-20" @click="$emit( 'close-modal' )">
         <Transition name="modal-inner">
           <div v-if=" modalActive " class=" z-50 backdrop-blur p-4">
             <button  class=" p-2 px-4 font-bold bg-[#eeeeee17]  flex flex-col justify-center items-center  text-3xl text-white rounded-2xl ">X

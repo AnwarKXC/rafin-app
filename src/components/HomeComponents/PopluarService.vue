@@ -1,7 +1,7 @@
 <template>
    <section
       class="container text-center font-arabic  text-[20px] leading-[35px]  flex justify-center items-center py-5 overflow-hidden" >
-      <div class="max-w-[938px]">
+      <div class="max-w-[938px] container">
          <h1 class="title">{{ $t( "أشهر خدماتنا" ) }}</h1>
          <p>
 

@@ -7,6 +7,10 @@
          </div>
       </div>
       <swiper class="mySwiper" :slides-per-view=" 1 " :space-between=" 50 " :loop=" true "
+      :autoplay=" {
+         delay: 2000,
+         disableOnInteraction: false,
+      } "
          :grab-cursor=" true " :modules=" [ Pagination ] " :pagination=" value ">
          <swiper-slide>
             <SliderImage />

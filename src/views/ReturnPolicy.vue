@@ -1,5 +1,5 @@
 <template>
-<div class=" container min-h-screen">
+<div class=" container min-h-screen font-arabic">
    <h1 ref="focus" class="title">{{ $t('سياسة الاسترجاع') }}</h1>
          <p class=" leading-8">
 

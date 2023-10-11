@@ -7,11 +7,12 @@
                <img class="flip-img ltr:hidden" src="/src/assets/Slider.png" alt="main section">
                <img class=" rtl:hidden" src="/src/assets/Slider.png" alt="main section">
             </div>
-            <div class="hidden lg:inline-flex absolute top-0 ltr:left-0"><DownLoadHeroSection/>
+            <div class="hidden lg:inline-flex absolute top-0 ltr:left-0">
+               <!-- <DownLoadHeroSection/> -->
             </div>
          </div>
       </div>
-      <div class=" lg:hidden"><DownLoadHeroSection/></div>
+      <!-- <div class=" lg:hidden"><DownLoadHeroSection/></div> -->
       
    </div>
 </template>

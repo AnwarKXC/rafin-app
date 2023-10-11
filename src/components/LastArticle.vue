@@ -1,6 +1,6 @@
 <template>
-   <RouterLink :to=" { name: 'article', params: { name: ( item.name ).split( ' ' ).join( '-' ), id: item.id } }">
-      <div
+
+      <div  @click="router.push( `/article/${ item.id }/${ item.name.split( ' ' ).join( '-' ) }` ).then( scroll ).then( reload )"
       class="cursor-pointer flex rounded-[15px] overflow-hidden border border-[#BFBFBF] gap-2 min-w-[400px]     max-h-[90px] aspect-[2/.8] my-2 ">
       <div class=" aspect-[2/1] ">
          <img class="w-full aspect-[2/1] " :src="item.url" alt=" article photo">
@@ -11,7 +11,7 @@
          <p  class=" line-clamp-2 leading-6 text-sm">{{ item.content }}</p>
       </div>
    </div>
-   </RouterLink>
+ 
 
 </template>
 
