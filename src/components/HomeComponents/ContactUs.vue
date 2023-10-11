@@ -25,9 +25,9 @@
             </div>
 
          </div>
-         <div class=" container">
-            <FormSection />
-         </div>
+      </div>
+      <div class=" container">
+         <FormSection />
       </div>
 
    </section>

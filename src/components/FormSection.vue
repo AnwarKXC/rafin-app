@@ -1,6 +1,6 @@
 <template>
-   <form  @submit.prevent="submitHandler" class="   text-start md:pt-6  ">
-      <div class="flex flex-col md:flex-row justify-center items-cente gap-2  lg:gap-10 ">
+   <form  @submit.prevent="submitHandler" class="   text-start md:pt-6  container ">
+      <div class="flex flex-col md:flex-row justify-center items-center  lg:gap-10 ">
          <div class="flex flex-col xl:flex-grow">
             <label for="form">{{ $t( 'الإسم' ) }}</label>
             <input autocomplete="additional-name" id="form"  maxlength="100" minlength="10" type="name" v-model=" nameRef "  :placeholder=" $t( 'قم بإدخال الاسم' ) ">
@@ -10,7 +10,7 @@
             <input autocomplete="additional-name"  v-model="emailRef" type="email" name="email" id="email" :placeholder=" $t( 'قم بإدخال البريد الالكتروني' ) ">
          </div>
       </div>
-      <div class="flex flex-col xl:flex-grow ">
+      <div class="flex flex-col ">
          <label  for="message">{{ $t( 'الرسالة' ) }}</label>
          <textarea v-model=" messageRef " id="message" :placeholder=" $t( '... يسعدنا قراءة رسالتك' ) " rows="4"></textarea>
       </div>
