@@ -1,5 +1,5 @@
 <template>
-   <form  @submit.prevent="submitHandler" class="   text-start md:pt-6   ">
+   <form  @submit.prevent="submitHandler" class="   text-start md:pt-6  px-5 ">
       <div class="   flex flex-col md:flex-row justify-center items-center  lg:gap-10 ">
          <div class="flex flex-col   ">
             <label for="form">{{ $t( 'الإسم' ) }}</label>
