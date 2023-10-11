@@ -9,12 +9,12 @@ export default {
       colors: {
         "prim": "#146aff",
       },
-},
+    },
     fontFamily: {
       arabic: [ 'IBM Plex Sans Arabic', 'sans-serif' ]
     },
     container: {
-      padding:'10px',
+      padding: '5px',
       center: true,
     },
   },

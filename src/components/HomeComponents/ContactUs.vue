@@ -27,11 +27,7 @@
          </div>
       </div>
       
-      
-      
-      <div class=" container">
          <FormSection />
-      </div>
    </section>
 </template>
 
