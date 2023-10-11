@@ -11,7 +11,7 @@
          delay: 2000,
          disableOnInteraction: false,
       } "
-         :grab-cursor=" true " :modules=" [ Pagination ] " :pagination=" value ">
+         :grab-cursor=" true " :modules=" [ Pagination] " :pagination=" value ">
          <swiper-slide>
             <SliderImage />
          </swiper-slide>

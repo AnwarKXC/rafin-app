@@ -8,7 +8,7 @@
             <button  class=" p-2 px-4 font-bold bg-[#eeeeee17]  flex flex-col justify-center items-center  text-3xl text-white rounded-2xl ">X
              
             </button>
-            <div class=" px-5 mt-10 text-white items-center flex-col flex   h-screen ">
+            <div class=" px-5 mt-5 text-white items-center flex-col flex   h-screen ">
               <slot />
 
             </div>

@@ -31,8 +31,9 @@
             <button class=" button-sec" v-if=" lang === 'EN' " @click=" Ar ">AR</button>
             <button class=" button-sec " v-if=" lang === 'AR' " @click=" En ">EN</button>
             <div class=" relative">
-               <button :class=" { 'bg-[#2300d3] ': isOpen==true,'bg-prim':isOpen==false} " @click=" toggleDropdown " class="button-prim-nav "> {{ $t( 'تحميل التطبيق' )
-               }}</button>
+               <button :class=" { 'bg-[#2300d3] ': isOpen == true, 'bg-prim': isOpen == false } "
+                  @click=" toggleDropdown " class="button-prim-nav "> {{ $t( 'تحميل التطبيق' )
+                  }}</button>
                <ul v-if=" isOpen " class="dropdown-menu  drop-shadow-xl ">
                   <li><a href=""><img src="/src/assets/copy.png" alt=""></a></li>
                   <li><a href=""><img src="/src/assets/copy1.png" alt=""></a>
@@ -67,11 +68,20 @@
                <button class=" button-sec-mob" v-if=" lang === 'EN' " @click=" Ar ">AR</button>
                <button class=" button-sec-mob " v-if=" lang === 'AR' " @click=" En ">EN</button>
             </div>
-            <ul class=" max-w-[250px]  ">
+            <ul class=" max-w-[230px]  ">
                <li><a href=""><img src="/src/assets/copy.png" alt=""></a></li>
                <li><a href=""><img src="/src/assets/copy1.png" alt=""></a>
                </li>
             </ul>
+            <div class="flex gap-12 py-8 " >
+               <a target=”_blank” href="https://www.facebook.com/refinecare"><img width="32" class=" invert"
+                     src="/src/assets/facebook-app-symbol.png" alt=""></a>
+               <a href="https://www.youtube.com/@refinecare" target=”_blank”><img width="32"  class=" invert"
+                     src="/src/assets/youtube.png" alt=""></a>
+               <a href="https://linkedin.com/company/refine-care" target=”_blank”><img width="32" class=" invert"
+                     src="/src/assets/linkedin.png" alt=""></a>
+            </div>
+                 <p class="text-2xl"><a href="tel:01070549662">01070549662</a> - <a href="tel:01070549663">01070549663</a></p>
          </BaseModal>
       </div>
    </header>
@@ -101,8 +111,8 @@ const toggleModal = () => {
 const isOpen = ref( false )
 const toggleDropdown = () => {
    isOpen.value = !isOpen.value
-   
-} 
+
+}
 
 
 
@@ -154,4 +164,5 @@ li:hover {
 .dropdown-menu li:hover {
    box-shadow: 0 10px 20px rgba(47, 46, 46, 0.188), 0 6px 6px rgba(0, 0, 0, 0.23);
    scale: 1.075;
-}</style>
+}
+</style>
