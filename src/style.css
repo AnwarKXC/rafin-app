@@ -16,6 +16,9 @@ body{
 .button-sec{
    @apply md:px-[15px] px-12 py-2.5 border-2 border-prim rounded-[10px] md:text-prim font-bold hover:bg-blue-100 text-base
 }
+.button-sec-mob{
+   @apply w-28 aspect-[5/2]  mt-10 mb-4 bg-[#152041fc]  text-2xl  border-2 border-prim  rounded-[15px] hover:bg-[#263c7e]
+}
 .title{
    @apply text-prim text-[28px]  font-bold py-[20px] capitalize ltr:md:text-start text-center 
 }

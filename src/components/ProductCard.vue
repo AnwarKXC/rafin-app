@@ -6,7 +6,7 @@
          </div>
          <div class="h-[150px] text-start p-2 border border-[#BFBFBF] border-t-0 rounded-b-[15px]">
             <h3 class="pb-3">{{ image.name }}</h3>
-            <p class="line-clamp-2 leading-6 text-sm tracking-wide">{{ image.content }}</p>
+            <p class="line-clamp-3 leading-6 text-sm tracking-wide">{{ image.content }}</p>
          </div>
       </div>
    </RouterLink>

@@ -3,13 +3,17 @@
       <div class="container text-center font-arabic  text-[20px] leading-[35px]">
          <h1 class="title">{{ $t( 'شركاءنا' ) }}</h1>
          <p class="max-w-[938px] mx-auto">
-      توفر منصة ريفاين خدمات شاملة في مجال الرعاية الصحية وبرامج التأمين الطبي المتنوعة، لتمكن عملائها من هذه الخدمات وحجزها إلكترونياً بسهولة مع العديد من الميزات والخدمات، مثل تحديد وطريقة تقديم الخدمة الطبية حسب المنطقة والمحافظة، وذلك بفضل تقييمات الخدمة التي تقدمها. كما ساهم في مقارنة الأسعار</p>
+            توفر منصة ريفاين خدمات شاملة في مجال الرعاية الصحية وبرامج التأمين الطبي المتنوعة، لتمكن
+            عملائها من هذه الخدمات وحجزها إلكترونياً بسهولة مع العديد من الميزات والخدمات، مثل تحديد
+            وطريقة تقديم الخدمة الطبية حسب المنطقة والمحافظة، وذلك بفضل تقييمات الخدمة التي تقدمها. كما
+            ساهم في مقارنة الأسعار</p>
          <div>
 
-            <div class="flex items-center gap-4 pt-12">
-               <!-- <div class="cursor-pointer p-2 rounded-xl bg-[#ACCCFC]   font-arabic">
-                  <img class=" w-6 " src="/right-arrow (2).png" alt="">
-               </div> -->
+            <div class=" flex items-center gap-4 pt-12">
+               <div class="swiper-button-next p-2 cursor-pointer rounded-xl bg-[#ACCCFC]    font-arabic">
+                  <img class=" ltr:hidden w-6 " src="/src/assets/right-arrow.png" alt="">
+                  <img class=" rtl:hidden w-6 " src="/src/assets/left-arrow.png" alt="">
+               </div>
                <Swiper :class=" Swiper " :slides-per-view=" 6.25 " :space-between=" 25 " :loop=" true "
                   :breakpoints=" {
                      '200': {
@@ -41,7 +45,10 @@
                         spaceBetween: 25,
                      },
 
-                  } " :modules=" [ Autoplay, Navigation ] " :navigation=" true " :autoplay=" {
+                  } " :modules=" [ Autoplay, Navigation ] " :navigation=" {
+   nextEl: '.swiper-button-next',
+   prevEl: '.swiper-button-prev',
+} " :autoplay=" {
    delay: 2000,
    disableOnInteraction: false,
 } " class="mySwiper" :grab-cursor=" true ">
@@ -102,9 +109,10 @@
 
 
                </Swiper>
-               <!-- <div class=" p-2 rounded-xl bg-[#ACCCFC]   font-arabic">
-                  <img class=" w-6 " src="/left-arrow.png" alt="">
-               </div> -->
+               <div class="swiper-button-prev cursor-pointer p-2 rounded-xl bg-[#ACCCFC]   font-arabic">
+                  <img class=" rtl:hidden w-6 " src="/src/assets/right-arrow.png" alt="">
+                  <img class=" ltr:hidden w-6 " src="/src/assets/left-arrow.png" alt="">
+               </div>
             </div>
 
          </div>
@@ -117,9 +125,8 @@
 <script setup>
 import { Swiper, SwiperSlide } from 'swiper/vue'
 import { Autoplay, Navigation } from 'swiper/modules'
-import { register } from 'swiper/element/bundle';
 import 'swiper/css/pagination'
-import 'swiper/css/navigation';
+
 
 </script>
 
@@ -130,10 +137,7 @@ import 'swiper/css/navigation';
    height: 145px;
 }
 
-.swiper-button-prev::after{
-color: black;
-display: none;
-}
+
 .swiper-slide {
    /* Center slide text vertically */
    max-width: 175px;
@@ -146,6 +150,7 @@ display: none;
    align-items: center;
 
 }
+
 
 .swiper-slide img {
    width: 100%;

@@ -1,4 +1,4 @@
-<template>s
+<template>
    <main
       class=" container flex flex-col xl:flex-row justify-center md:gap-16 items-center  font-arabic py-10 md:py-6 ">
       <div class=" text-center  font-arabic  text-[20px] leading-[35px] ">
@@ -32,26 +32,7 @@
          <FormSection />
       </div>
    </main>
-   <!-- <PartnersSection />
-   <section
-      class="container flex flex-col md:flex-row text-center md:text-start justify-center items-center font-arabic  mx-auto">
-      <div class=" relative ">
-         <img src="/Group 47760@2x.png" alt="">
-      </div>
-      <div class="text-xl md:text-start  max-w-[538px] md:order-first 2xl:pt-40  ">
-         <h1 class="title">{{ $t( "حمل تطبيق ريفاين و واطمن علي صحتك في أي وقت" ) }}</h1>
-         <div class="font-medium leading-[35px] py-4">
-            توفر منصة ريفاين خدمات شاملة في مجال الرعاية الصحية وبرامج التأمين الطبي المتنوعة، لتمكن
-            عملائها من الاستفادة من هذه الخدمات وحجزها إلكترونيًا بسهولة. مع العديد من الميزات
-            والخدمات، مثل تحديد وترتيب مقدمي الخدمة الطبية حسب المنطقة والمحافظة، وذلك بناءً على
-            تقييماتهم وجودة الخدمة التي يقدمونها. كما تتيح للعملاء مقارنة الأسعار
-         </div>
-         <div class="flex gap-[27px] mt-[27px] justify-center ">
-            <a href=""><img src="/NoPath@2x.png" alt=""></a>
-            <a href=""><img src="/NoPath - Copy@2x.png" alt=""></a>
-         </div>
-      </div>
-   </section> -->
+
 </template>
 
 <script setup>

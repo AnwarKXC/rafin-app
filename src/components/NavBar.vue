@@ -30,16 +30,28 @@
 
       </div>
 
-      <div class=" hidden md:inline-flex xl:gap-[160px] font-arabic">
+      <div class=" hidden md:inline-flex gap-6 font-arabic">
          <button class=" button-sec" v-if=" lang === 'EN' " @click=" Ar ">AR</button>
          <button class=" button-sec " v-if=" lang === 'AR' " @click=" En ">EN</button>
+         <div class=" relative">
+            <button @click=" toggleDropdown " class="button-prim"> {{ $t( 'تحميل التطبيق' ) }}</button>
+            <ul v-if=" isOpen " class="dropdown-menu  drop-shadow-xl ">
+               <li><a href=""><img src="/src/assets/copy.png" alt=""></a></li>
+               <li><a href=""><img src="/src/assets/copy1.png" alt=""></a>
+               </li>
+
+            </ul>
+
+
+
+         </div>
       </div>
       <BaseModal :modalActive=" modalActive " @close-modal=" toggleModal ">
 
 
          <div class=" flex flex-col justify-center">
 
-            <ul class=" flex gap-[62px] justify-center  items-start it flex-col text-2xl">
+            <ul class=" flex gap-6 justify-center  items-start it flex-col text-2xl">
                <li>
                   <RouterLink class="flex  items-center  gap-3" to="/"> <img class=" invert"
                         src="/src/assets/home.png" alt="">{{ $t( 'الرئيسية' ) }}</RouterLink>
@@ -57,20 +69,26 @@
                   <RouterLink class="flex  items-center  gap-3" to="/blog"> <img class=" invert"
                         src="/src/assets/web-page.png" alt="">{{ $t( "المدونة" ) }}</RouterLink>
                </li>
-               <li>
-                  <div class=" pb-[64px] xl:gap-[160px] font-arabic ">
-                     <button class=" button-sec" v-if=" lang === 'EN' " @click=" Ar ">AR</button>
-                     <button class=" button-sec " v-if=" lang === 'AR' " @click=" En ">EN</button>
-                  </div>
-               </li>
+
             </ul>
 
          </div>
+         <div class=" font-arabic ">
+            <button class=" button-sec-mob" v-if=" lang === 'EN' " @click=" Ar ">AR</button>
+            <button class=" button-sec-mob " v-if=" lang === 'AR' " @click=" En ">EN</button>
+
+         </div>
+         <ul class=" max-w-[250px]  ">
+            <li><a href=""><img src="/src/assets/copy.png" alt=""></a></li>
+            <li><a href=""><img src="/src/assets/copy1.png" alt=""></a>
+            </li>
+
+         </ul>
       </BaseModal>
    </header>
 </template>
 
-<script setup>
+<script setup >
 const lang = localStorage.getItem( "lang" )
 function Ar () {
    localStorage.setItem( "lang", "AR" )
@@ -84,12 +102,27 @@ function En () {
 
 
 
-import { ref } from 'vue'
+import { ref, watch } from 'vue'
 import BaseModal from './BaseModal.vue'
 const modalActive = ref( null )
 const toggleModal = () => {
    modalActive.value = !modalActive.value
 }
+
+const isOpen = ref( false )
+const toggleDropdown = () => {
+   isOpen.value = !isOpen.value
+}
+watch( isOpen, ( newIsOpen, oldIsOpen ) => {
+   if ( isOpen.value ) {
+      setTimeout( () => {
+         isOpen.value = !isOpen.value
+
+      }, 4000 )
+   }
+} )
+
+
 </script>
 
 <style scoped>
@@ -100,5 +133,26 @@ li {
 
 li:hover {
    background-color: #eeeeee15;
+}
+
+.dropdown-menu {
+   position: absolute;
+   list-style: none;
+   z-index: 10;
+   padding-top: 5px;
+   border-radius: 0 0 10px 10px;
+
+}
+
+.dropdown-menu li {
+   padding: 3px;
+   margin: 5px;
+   cursor: pointer;
+
+}
+
+.dropdown-menu li:hover {
+   box-shadow: 0 10px 20px rgba(47, 46, 46, 0.188), 0 6px 6px rgba(0, 0, 0, 0.23);
+   scale: 1.075;
 }
 </style>
