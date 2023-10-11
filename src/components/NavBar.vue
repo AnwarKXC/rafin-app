@@ -43,7 +43,7 @@
          </div>
          <BaseModal :modalActive=" modalActive " @close-modal=" toggleModal ">
             <div class=" flex flex-col justify-center">
-               <ul class=" flex gap-5 justify-center  items-start it flex-col text-2xl">
+               <ul class=" flex gap-5 justify-center  items-start it flex-col text-lg">
                   <li>
                      <RouterLink class="flex  items-center  gap-3" to="/"> <img class=" invert"
                            src="/src/assets/home.png" alt="">{{ $t( 'الرئيسية' ) }}</RouterLink>
@@ -68,7 +68,7 @@
                <button class=" button-sec-mob" v-if=" lang === 'EN' " @click=" Ar ">AR</button>
                <button class=" button-sec-mob " v-if=" lang === 'AR' " @click=" En ">EN</button>
             </div>
-            <ul class=" max-w-[230px]  ">
+            <ul class=" max-w-[200px]  ">
                <li><a href=""><img src="/src/assets/copy.png" alt=""></a></li>
                <li><a href=""><img src="/src/assets/copy1.png" alt=""></a>
                </li>
